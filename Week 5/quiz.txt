@@ -1,0 +1,15 @@
+1: grad, persp, conv, max-pool
+
+2: 640 * 480 = 307200
+   640 * 480 * 3 = 921600
+
+3: It utilizes a more robust distance metric, rather than simple Euclidean distance used in k-means method
+
+4: To undo pooling by outputting an image with larger resolution (i.e., pixels in spatial directions)
+
+5: We use ‘bed of nails’: output the maximal values in the top left corner and zeros elsewhere
+   We output maximal values at their respective indexes (called max location switches) and place zeroes elsewhere
+
+6: A matrix produced by computing dot product between two sets of vectors
+
+7: It produces data that is hard to distinguish from real

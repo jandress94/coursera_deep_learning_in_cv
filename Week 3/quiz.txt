@@ -1,0 +1,29 @@
+Q1 : 9
+I = 25*8 = 200
+U = 51*23 + 51*26 - 200 = 1173 + 1326 - 200 = 2299
+IoU = 200 / 2299 = 9%
+
+Q2 : 97 60
+precision = tp / (tp + fp) = 3 / (3 + 0.1) = .968
+recall = tp / (tp + fn) = 3 / (3 + 2) = .6
+
+Q3 : 11
+20(1.1)^{n-1} >= 50
+n-1 >= ln 2.5 / ln 1.1
+n-1 >= 9.6
+n >= 10.6
+
+Q4 : flip around vertical, rotate small, small shifts
+
+Q5 : 0.0000002
+502*374 = 187748 classifications / image
+25 images / sec
+187748*25 = 4693700 classifications / sec
+2.13e-7
+
+Q6 : selective search, SVM
+
+Q7 : neural network, ROI, dense, multitask
+
+Q8 : 2400
+6*10*(3*5 + 25) = 60*40 = 2400
